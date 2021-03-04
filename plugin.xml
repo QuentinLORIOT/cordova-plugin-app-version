@@ -91,4 +91,12 @@
         </js-module>
 
     </platform>
+
+    <!-- electron -->
+    <platform name="electron">
+        <js-module src="src/electron/AppVersionProxy.js" name="AppVersionProxy">
+            <runs />
+        </js-module>
+    </platform>
+    
 </plugin>
