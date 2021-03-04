@@ -1,4 +1,4 @@
-const app = require('electron').remote.app;
+const app = window.require('electron').remote.app;
 
 module.exports = {
     getAppName: function (success, error) {
